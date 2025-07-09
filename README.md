@@ -57,7 +57,7 @@ A sophisticated, AI-powered voice assistant with real-time speech recognition, e
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/AsnanP/voice-to-voice-ai.git
-cd advanced-voice-assistant
+cd voice-to-voice-ai
 ```
 
 ### 2. Create Virtual Environment
@@ -194,18 +194,6 @@ EMOTION_PATTERNS = {
 - **EmotionDetector**: Analyzes text for emotional content
 - **WebInterface**: Flask-based web dashboard
 
-### File Structure
-```
-advanced-voice-assistant/
-├── advanced_emotion.py    # Main voice assistant logic
-├── app.py                # Web interface server
-├── requirements.txt      # Python dependencies
-├── .env                 # Environment variables
-├── vosk-model-en-us-0.22/  # Speech recognition model
-├── templates/           # HTML templates
-├── static/             # CSS, JS, images
-└── README.md           # This file
-```
 
 ## 🔧 Troubleshooting
 
@@ -317,7 +305,7 @@ socket.on('assistant_event', function(data) {
 ### Development Setup
 ```bash
 # Install development dependencies
-pip install -r requirements-dev.txt
+pip install -r requirements.txt
 
 # Run tests
 python -m pytest tests/
