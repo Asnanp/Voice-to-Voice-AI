@@ -1,10 +1,12 @@
 # 🎤 Advanced Voice To Voice with Sentiment Prediction
 
 ## Overview
-# 🎙️ Voice to Voice AI
-> The future of human-like AI communication — voice in, voice out, emotions included.
 
 A sophisticated, AI-powered voice assistant with real-time speech recognition, emotional intelligence, and a beautiful web interface. Built with Python, Flask, and modern web technologies, this assistant provides natural conversation capabilities with emotion detection and adaptive responses.
+
+
+# 🎙️ Voice to Voice AI
+> The future of human-like AI communication — voice in, voice out, emotions included.
 
 ## ✨ Features
 
